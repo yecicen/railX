@@ -1,0 +1,60 @@
+.instructions{
+    position: absolute;
+    margin: 0px;
+    top: 0px;
+    width: 154px;
+    padding: 5px;
+    color: white;
+    background: #000;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.loader{
+   width: 100%;
+   height: 100%;
+   background: #000000ab;
+   position: absolute;
+   text-align: center;
+   color: #fff;
+}
+
+.message {
+    text-align: center;
+    margin-top: 20%;
+}
+
+.loader i {
+    font-size: 50px;
+}
+    
+
+.play-ground{
+    display: grid;
+    margin: auto;
+    /* background-color: rgb(0, 8, 3); */
+}
+
+.ani {
+background: url('../assets/img/map.png');
+ /* height: 100vh; */
+-webkit-animation:bgscroll 25s infinite linear;
+/* background-repeat:no-repeat; */
+background-position: center;
+ background-size:130%;
+ /* background-position:center; */
+}
+
+@-webkit-keyframes bgscroll {
+    from {background-position:0 0;}
+    to {background-position:0 -100%;}
+}
+
+#score {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  font-size: 30px;
+  font-weight: bold;
+  color: red;
+}

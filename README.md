@@ -1,29 +1,22 @@
-[![Built with pwa–starter–kit](https://img.shields.io/badge/built_with-pwa–starter–kit_-blue.svg)](https://github.com/Polymer/pwa-starter-kit "Built with pwa–starter–kit")
-[![Build status](https://api.travis-ci.org/Polymer/pwa-starter-kit.svg?branch=template-minimal-ui)](https://travis-ci.org/Polymer/pwa-starter-kit)
+# Car Racing game using Angular
 
-# PWA Starter Kit - template-minimal-ui
+A Car Racing game using Angular with Crash detection feature. In case if you want to read full source code explanation, I have written a Blog post on this application.
 
-This sample app is a starting point for building PWAs. Out of the box, the template
-gives you the following features:
-- all the PWA goodness (manifest, service worker)
-- a responsive layout
-- application theming
-- example of using Redux for state management
-- offline UI
-- simple routing solution
-- fast time-to-interactive and first-paint through the PRPL pattern
-- easy deployment to prpl-server or static hosting
-- unit and integrating testing starting points
-- documentation about other advanced patterns.
+**Blog Post Link : [Click here](http://www.codershood.info/2018/03/02/building-2d-racing-game-using-angular/)**.
 
-This template uses Redux for state management like the `master` template, but doesn't use any of the `app-layout` elements (app-header or app-drawer) for the responsive UI.
+**Demo : [Click Here](https://stackblitz.com/github/ShankyTiwari/Racing-Game-using-Angular-Blog-Post)**. 
 
-### 📖 Head over to the [documentation site](https://pwa-starter-kit.polymer-project.org/) for more details or check out [how to get started](https://pwa-starter-kit.polymer-project.org/setup)!
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.0.
 
-![pwa-starter-kit screenshot](https://user-images.githubusercontent.com/116360/39716939-a353c706-51e6-11e8-972b-e006d25817ce.png)
 
-## TODOs
+## Development server
 
-- [x] Setup Safari testing on Travis.
-- [x] Deploy all templates as demos.
-- [ ] Update to latest [Material Web Components](https://github.com/material-components/material-components-web-components).
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
